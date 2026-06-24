@@ -1,0 +1,105 @@
+name: training
+description: "AI Drawing & Auto-Correction System"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  vector_math: ^2.1.4
+  screenshot: ^3.0.0
+  image_gallery_saver_plus: ^4.0.1
+  path_provider: ^2.1.3
+  confetti: ^0.7.0
+  image_picker: ^1.1.2
+  lottie: ^2.7.0
+  shared_preferences: ^2.2.2
+  camera: ^0.11.2+1
+  hand_landmarker: ^2.1.2
+  image: ^4.1.4
+  permission_handler: ^11.0.1
+  provider: ^6.1.2
+  google_fonts: ^6.1.0
+
+  shimmer: ^3.0.0
+  animations: ^2.0.7
+  flutter_staggered_animations: ^1.1.0
+  animate_do: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+
+    - assets/background/living_room.jpg
+    - assets/background/kitchen.jpg
+    - assets/background/garden.jpg
+    - assets/background/tv_lounge.jpg
+    - assets/3d/cube.png
+    - assets/3d/sphere.png
+    - assets/3d/cylinder.png
+    - assets/3d/cone.png
+    - assets/3d/pyramid.png
+    - assets/3d/house.png
+    - assets/3d/cube.png
+    - assets/3d/sphere.png
+    - assets/3d/cylinder.png
+    - assets/3d/cone.png
+    - assets/3d/pyramid.png
+    - assets/3d/clock.png
+    - assets/3d/sun.png
+    - assets/3d/coin.png
+    - assets/3d/button.png
+    - assets/3d/wheel.png
+    - assets/3d/mountain.png
+    - assets/3d/tent.png
+    - assets/3d/window.png
+    - assets/3d/box.png
+    - assets/3d/door.png
+    - assets/3d/laptop.png
+    - assets/3d/phone.png
+    - assets/3d/egg.png
+    - assets/3d/football.png
+    - assets/3d/mirror.png
+    - assets/3d/starfish.png
+    - assets/3d/star.png
+    - assets/3d/swing.png
+    - assets/3d/snowflake.png
+    - assets/3d/seesaw.png
+    - assets/3d/honeycomb.png
+    - assets/3d/nut.png
+    - assets/3d/table.png
+    - assets/3d/arrow.png
+    - assets/3d/pencil.png
+    - assets/3d/ruler.png
+    - assets/3d/sofa.png
+    - assets/3d/cup.png
+    - assets/3d/table.png
+    - assets/3d/glass.png
+    - assets/3d/dishsoap.png
+    - assets/3d/microwave.png
+    - assets/3d/chair.png
+    - assets/3d/tree.png
+    - assets/3d/flower.png
+    - assets/3d/tv.png
+    - assets/3d/car.png
+    - assets/3d/bicycle.png
+    - assets/3d/bench.png
+    - assets/3d/cloud.png
+    - assets/3d/lamp.png
+    - assets/3d/frame.png
+    - assets/3d/bookshelf.png
+    - assets/3d/bed.png
+    - assets/images/canvas_texture.png
+    - assets/animations/paint_brush.json
